@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-sdk android:minSdkVersion="15"  />
+	<application android:label="App3Lab1.Android" android:theme="@style/Theme.MyTheme">
+    
+    
+    
+  </application>
+</manifest>

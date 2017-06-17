@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App3Lab1"
+             x:Class="App3Lab1.MainPage">
+
+
+    <!--<Label Text="hello"  VerticalOptions="Center" HorizontalOptions="Center"/>-->
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" IsVisible="True" Orientation="Vertical">
+    <Entry x:Name="Name" IsVisible="True"/>
+        <Entry x:Name="University" IsVisible="True"/>
+        <Button Text="Add Entry" Clicked="Button_Clicked" IsVisible="True"/>
+        <Button Text="InsertOffline" Clicked="Button_Clicked_1"/>
+        <Button Text="Push to Cloud" x:Name="Pushtocloud" Clicked="Pushtocloud_Clicked" />
+
+    </StackLayout> 
+
+</ContentPage>
